@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+.bradius {
+	border-radius: 6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+} /* ARREDONDAR CAMPOS FORMULÁRIO */
+
+.txt {
+	border:none;
+	height: 25px;
+	width: 250px;
+	border: thin solid #2196F3;
+}
+
+/* O TXT FOCUS serve para: quando clicar no campo do formulário, acende uma luz */
+
+.txt:focus {
+	border: thin solid #09F;
+	box-shadow: 0 2px 16px #09F;
+	-webkit-box-shadow: 0 2px 20px #09F;
+	-moz-box-shadow: 0 2px 20px #09F;
+}
+
+.txt,.txt:focus {
+	transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+}

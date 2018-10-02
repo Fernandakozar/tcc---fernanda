@@ -1,0 +1,92 @@
+body{
+	background-image: url("fundo.jpg"); /* imagem de fundo */
+	background-repeat: no-repeat; /* não repetir imagem de fundo */
+}
+
+.container {
+	margin: auto; /* margem automática */
+	width: 1000px; /* Largura */
+}
+
+.topo {
+	width: 100%; /* Largura */
+	height: 100px; /* Altura */
+	background-color: black; /* cor de fundo */
+	padding-top: 5px; /* distância entre o conteúdo de um elemento e suas bordas parte de cima */
+	padding-bottom: 30px; /* distância entre o conteúdo de um elemento e suas bordas abaixo */
+	letter-spacing: 1px; /* Espaçamento entre linhas */
+	word-spacing: 5px; /* Espaçamento entre palavras */	
+	line-height: 50px; /* Espaçamento entre linhas */		
+	font-size: 26px; /* tamanho fonte */
+	color: #E0FFFF; /* cor da fonte */
+	font-family: 'Merienda', cursive; /* estilo da fonte */
+	opacity: 0.9; /* opacidade */
+}
+
+.menu { /* Lateral Esquerda */
+	width: 18%; /* Largura */
+	height: 400px; /* Altura */
+	padding: 1%; /* distância entre o conteúdo de um elemento e suas bordas */
+	margin-top: 1%; /* Espaço em cima do elemento */
+	background-color: black; /* cor dde fundo */
+	float: left; /* flutuar para a esquerda da tela */
+	opacity: 0.9; /* opacidade */
+}
+
+.centro {
+	width: 58%; /* Largura */
+	height: 400px; /* Altura */
+	padding: 1%; /* distância entre o conteúdo de um elemento e suas bordas */
+	margin-top: 1%; /* Espaço em cima do elemento */
+	display: block; /* especifica o tipo de caixa de renderização usada por um elemento */
+	background-color: black; /* cor de fundo */
+	float: left; /* flutuar para a esquerda da tela */
+	opacity: 0.9; /* opacidade */
+}
+
+.meio { 
+	width: 100%; /* Largura */
+	height: 50%; /* Altura */
+	padding: 1%; /* distância entre o conteúdo de um elemento e suas bordas */
+	margin-top: 5%; /* Espaço em cima do elemento */
+	text-align: center; /* texto alinhado no centro da div */
+	display: block; /* especifica o tipo de caixa de renderização usada por um elemento */
+	float: center; /* flutuar no meio da tela */
+	letter-spacing: 1px; /* Espaçamento entre linhas */
+	word-spacing: 5px; /* Espaçamento entre palavras */	
+	line-height: 50px; /* Espaçamento entre linhas */		
+	font-size: 26px; /* tamanho fonte */
+	color: #E0FFFF; /* cor da fonte */
+	font-family: 'Merienda', cursive; /* estilo da fonte */
+}
+
+.banner { /* Lateral Direita */
+	width: 18%; /* Largura */
+	height: 400px; /* Altura */
+	padding: 1%; /* distância entre o conteúdo de um elemento e suas bordas */
+	margin-top: 1%; /* Espaço em cima do elemento */
+	background-color: black; /* cor de fundo */
+	float: left; /* Flutuar para esquerda da tela */
+	opacity: 0.9; /*opacidade */
+}
+
+.rodape {
+	width: 100%; /* Largura */
+	height: 55px; /* Altura */
+	background-color: black; /* cor de fundo */
+	float: left; /* Flutuar para esquerda da tela */
+	opacity: 0.9; /* opacidade */
+	margin-top: 1%;  /* Espaço em cima do elemento */
+	padding-top: 2%; /* distância entre o conteúdo de um elemento e suas bordas EM CIMA */
+	letter-spacing: 1px; /* Espaçamento entre linhas */
+	word-spacing: 5px; /* Espaçamento entre palavras */	
+	line-height: 50px; /* Espaçamento entre linhas */		
+	font-size: 16px; /* tamanho fonte */
+	color: #E0FFFF; /* cor da fonte */
+	font-family: 'Merienda', cursive; /* estilo da fonte */
+}
+
+img {
+	max-width: 100%; /* largura máxima da imagem 100% da tela */
+	height: auto; /* Altura */
+}

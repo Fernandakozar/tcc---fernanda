@@ -1,0 +1,5 @@
+fieldset {
+	text-align: justify-all; /* TEXTO ALINHADO */
+	box-shadow: 10px 10px 15px dodgerblue; /* EFEITO SOMBRA CAIXA */
+	border-color: dodgerblue; /* COR DA BORDA */
+}
